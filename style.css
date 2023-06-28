@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdfafa;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeecdf;
+}
+
+figure {
+    margin: 60px 0;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+
+}
+
+li {
+    padding: 15px 30px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    display: list-item;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 60px auto;
+    max-width: 1000px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+.primeiro {
+    background-color: bisque;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    /* max-width: 100%; */
+}
+
+.primeiro p {
+    text-align: end;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    padding: 18px 25px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(224, 14, 14, 0.2);
+    text-align: center;
+    padding: 40px;
+    align-self: center;
+}
+
+.informacao {
+    background-color: bisque;
+    padding: 40px;
+}
+
+.detalhe_item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+
+}
+
+.detalhe_item img {
+    max-width: 100%;
+}
+
+.detalhe_item p {
+    grid-column: 2;
+    color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
